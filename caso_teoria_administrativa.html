@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Segundo Parcial - Teoría Administrativa I</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+  --primary: #1d3557;
+  --secondary: #457b9d;
+  --accent: #a8dadc;
+  --light: #f1faee;
+  --text: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--text);
+}
+
+header {
+  background: rgba(255,255,255,0.95);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: var(--primary);
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #555;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px 60px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 18px 22px;
+  background: var(--light);
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s;
+}
+
+.card-header:hover {
+  background: #e6f3f1;
+}
+
+.card-header::after {
+  content: "+";
+  position: absolute;
+  right: 22px;
+  font-size: 22px;
+  transition: transform 0.3s;
+}
+
+.card-header.active::after {
+  transform: rotate(45deg);
+}
+
+.card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 22px;
+}
+
+.card-content p,
+.card-content li {
+  line-height: 1.7;
+}
+
+.section-title {
+  color: var(--primary);
+}
+
+ul {
+  padding-left: 18px;
+}
+
+footer {
+  text-align: center;
+  color: #eee;
+  padding: 30px 10px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>📘 Teoría Administrativa I – Segundo Parcial</h1>
+  <p><strong>Alumno:</strong> Roberto Carlos Bonilla Soriano · Técnico en Contabilidad</p>
+</header>
+
+<div class="container">
+
+  <!-- PREGUNTA 1 -->
+  <div class="card">
+    <div class="card-header">
+      Pregunta 1 – Fase MECÁNICA (Planeación y Organización)
+    </div>
+    <div class="card-content">
+
+      <p><strong>Identifique y explique al menos tres fallas en la fase MECÁNICA del proceso administrativo:</strong></p>
+
+      <h3 class="section-title">Falla 1: Planeación deficiente</h3>
+      <p><strong>a) Evidencia:</strong> La empresa lanzó la línea de “menús saludables ejecutivos” sin estudio de mercado ni objetivos claros, invirtiendo $50,000, aunque solo el 15% de los clientes lo demandó.</p>
+      <p><strong>b) Aplicación correcta según Chiavenato:</strong> La planeación debe partir del análisis del entorno, definición de objetivos, estrategias e indicadores. Gourmet Express debió evaluar la viabilidad antes de invertir.</p>
+      <p><strong>c) Consecuencia:</strong> Reducción de la utilidad neta del 18% al 7%.</p>
+
+      <h3 class="section-title">Falla 2: Ausencia de organización formal</h3>
+      <p><strong>a) Evidencia:</strong> No existe organigrama; hay órdenes contradictorias y duplicidad de funciones.</p>
+      <p><strong>b) Aplicación correcta:</strong> Definir estructura, jerarquías y manuales de funciones.</p>
+      <p><strong>c) Consecuencia:</strong> Devoluciones aumentaron del 3% al 18%.</p>
+
+      <h3 class="section-title">Falla 3: Deficiente asignación de funciones</h3>
+      <p><strong>a) Evidencia:</strong> Un chofer recibe órdenes de varios jefes.</p>
+      <p><strong>b) Aplicación correcta:</strong> Principio de unidad de mando y especialización.</p>
+      <p><strong>c) Consecuencia:</strong> Entregas a tiempo bajaron del 96% al 73%.</p>
+
+    </div>
+  </div>
+
+  <!-- PREGUNTA 2 -->
+  <div class="card">
+    <div class="card-header">
+      Pregunta 2 – Fase DINÁMICA (Dirección y Control)
+    </div>
+    <div class="card-content">
+
+      <h3 class="section-title">a) Problemas identificados</h3>
+      <p><strong>Dirección:</strong></p>
+      <ul>
+        <li>Supervisores sin liderazgo.</li>
+        <li>Falta de comunicación y motivación.</li>
+      </ul>
+
+      <p><strong>Control:</strong></p>
+      <ul>
+        <li>Ausencia de estándares.</li>
+        <li>No hay acciones correctivas.</li>
+      </ul>
+
+      <h3 class="section-title">b) Impacto en rotación y quejas</h3>
+      <p>La mala dirección genera desmotivación, explicando la rotación del 42% anual y el aumento de quejas.</p>
+
+      <h3 class="section-title">c) Estándares de control</h3>
+      <ul>
+        <li>Máx. 30 minutos de retraso.</li>
+        <li>Pedidos correctos al 100%.</li>
+        <li>Inventario mínimo para 2 días.</li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- PREGUNTA 3 -->
+  <div class="card">
+    <div class="card-header">
+      Pregunta 3 – Las 3E y la Matriz de Valor
+    </div>
+    <div class="card-content">
+
+      <h3 class="section-title">a) Definiciones</h3>
+      <ul>
+        <li><strong>Eficacia:</strong> Lograr objetivos.</li>
+        <li><strong>Eficiencia:</strong> Uso óptimo de recursos.</li>
+        <li><strong>Economía:</strong> Minimizar costos sin perder calidad.</li>
+      </ul>
+
+      <h3 class="section-title">b) Evaluación</h3>
+      <p>La empresa no es eficaz, eficiente ni económica.</p>
+
+      <h3 class="section-title">c) Beneficios</h3>
+      <p><strong>Organización:</strong> Mejora del servicio y rentabilidad.</p>
+      <p><strong>Administradores:</strong> Mejor toma de decisiones y control del desempeño.</p>
+
+    </div>
+  </div>
+
+  <!-- PREGUNTA 4 -->
+  <div class="card">
+    <div class="card-header">
+      Pregunta 4 – Control y Mejora Continua
+    </div>
+    <div class="card-content">
+
+      <h3 class="section-title">a) Falta de calibración</h3>
+      <p>No existen estándares ni análisis de desviaciones.</p>
+
+      <h3 class="section-title">b) Ciclo de mejora continua</h3>
+      <ul>
+        <li>Planeación: meta 95% puntualidad.</li>
+        <li>Organización: rutas y responsables.</li>
+        <li>Dirección: capacitación.</li>
+        <li>Control: medición y corrección.</li>
+      </ul>
+
+      <h3 class="section-title">c) Cliente principal</h3>
+      <p>El ciclo evita la pérdida del cliente al mejorar puntualidad y confiabilidad.</p>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Universidad Modular Abierta · Teoría Administrativa I
+</footer>
+
+<script>
+const headers = document.querySelectorAll(".card-header");
+
+headers.forEach(h => {
+  h.addEventListener("click", () => {
+    h.classList.toggle("active");
+    const content = h.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+});
+</script>
+
+</body>
+</html>
